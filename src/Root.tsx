@@ -1,6 +1,11 @@
+import { Route, Routes } from 'react-router-dom';
+
+import { AuthPage } from 'pages/AuthPage/AuthPage';
+import { MainView } from 'views/MainView';
+
 export const Root = () => (
-  <>
-    <h1>ReactJS TypeScript project template</h1>
-    <p>Edit Root.tsx</p>
-  </>
+  <Routes>
+    <Route path="/*" element={<MainView />} />
+    <Route path="/login" element={<AuthPage />} />
+  </Routes>
 );

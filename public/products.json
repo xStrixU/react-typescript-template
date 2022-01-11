@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14 Pro",
+    "description": "iPhone 14 available for purchase before the premiere.",
+    "price": 149.99,
+    "rating": 6,
+    "img": "https://i.ytimg.com/vi/YtIGEjQC-nM/maxresdefault.jpg"
+  },
+  {
+    "id": 2,
+    "name": "PaySafeCard 10$",
+    "description": "PaySafeCard 10$ at a bargain price of 14.99$.",
+    "price": 14.99,
+    "rating": 1,
+    "img": "https://make-cash.pl/uploads/monthly_2019_01/WP_20190106_001.jpg.991b1768558abe0e43c1fae676d90f9e.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bitcoin",
+    "description": "Bitcoin cryptocurrency.",
+    "price": 99999,
+    "rating": 3,
+    "img": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbesfinancecouncil%2Ffiles%2F2018%2F12%2Fcanva-photo-editor-2.png"
+  },
+  {
+    "id": 4,
+    "name": "Outro",
+    "description": "Professional ,,Thanks for watching'' outro.",
+    "price": 9.99,
+    "rating": 5,
+    "img": "https://i.ytimg.com/vi/bdukYKND61w/hqdefault.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Apples",
+    "description": "Fresh apples straight from the orchard, price per piece.",
+    "price": 1.99,
+    "rating": 4,
+    "img": "https://content.instructables.com/ORIG/FK2/BO52/FLLZY723/FK2BO52FLLZY723.bmp?auto=webp&fit=bounds&frame=1"
+  }
+]

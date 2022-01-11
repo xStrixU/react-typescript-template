@@ -1,16 +1,23 @@
 {
   "root": true,
-  "plugins": ["prettier", "react", "@typescript-eslint"],
-  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
+  "plugins": ["prettier", "react", "react-hooks", "@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "rules": {
     "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "prettier/prettier": [
       "error",
       {
         "singleQuote": true,
         "arrowParens": "avoid",
-        "printWidth": 150,
-        "endOfLine": "auto"
+        "endOfLine": "auto",
+        "printWidth": 80
       }
     ]
   },
